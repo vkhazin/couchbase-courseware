@@ -69,12 +69,3 @@ Develop and Operate highly scalable and agile database for modern Web, Mobile, a
 * Exercise: query couchbase using Views object model
 * Object model for N1QL queries
 * Exercise: query couchbase using N1QL
-
-## Additionally consider incorporating: ##
-* Data encryption
-* Restful api for server administration
-* Spatial views
-* Global secondary indexes
-* Authentication and Authorization
-* Ldap integration
-* Auditing for administrators
