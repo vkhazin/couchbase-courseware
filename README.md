@@ -1,7 +1,7 @@
 # Couchbase Server 4.5 #
 
 ## Course Outline ##
-Develop and Operate highly scalable and agile database for modern Web, Mobile, and IoT systems.
+Develop and Operate highly scalable and agile database for modern Web, Mobile, and IoT systems.  
 [Table of Content](./table-of-content.md)
 
 ## Participants will learn ##
