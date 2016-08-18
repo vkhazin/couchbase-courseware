@@ -19,7 +19,7 @@ Develop and Operate highly scalable and agile database for modern Web, Mobile, a
 * Familiarity with Restful/Soap web services
 * Exposure to high availability/high performance system design
 
-## Why NoSql Database ##
+## Why NoSql Databases ##
 * History, hype, and industry trends
 * Rdbms strengths and shortcomings - strong consistency, rich ecosystem, weak scalability and limited availability options
 * NoSql strength and weaknesses - replication and sharding built-in, high scalability and availability, limited ecosystem, eventually consistency

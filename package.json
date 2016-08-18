@@ -1,0 +1,18 @@
+{
+  "name": "couchbase-courseware",
+  "version": "1.0.0",
+  "description": "## Course Outline ## Develop and Operate highly scalable and agile database for modern Web, Mobile, and IoT systems.   [Table of Content](./table-of-content.md)",
+  "scripts": {
+    "convert": "find ./content/. -name '*.md' -exec cat {} \\; -exec printf '\n\\-\\-\\-\n\n' \\; > ./build/slides.md"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vkhazin/couchbase-courseware.git"
+  },
+  "author": "Vlad Khazin (vladimir.khazin@icssolutions.ca)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vkhazin/couchbase-courseware/issues"
+  },
+  "homepage": "https://github.com/vkhazin/couchbase-courseware#readme"
+}
