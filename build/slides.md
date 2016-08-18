@@ -20,12 +20,22 @@
 * 1970's Relational databases - entities referencing other entities plus addition of "search" capabilities
 	* Present data in tabular form, i.e. as a collection of tables with each table consisting of a set of rows and columns
 	* Provided relational operators to manipulate the data in tabular form
-	* 
+	* Later ACID-compliant transaction processing with strong database consistency characteristics and high level of database security were introduced
+---
 
+# History of Databases Cont'd#
 
-<div class="footer">
-RAM - Random Access Memory
-</div>
+* 1990's Object-Oriented - combine database capabilities with OOP language capabilities
+    * Data has been seen as objects and their attributes rather than rows and columns
+    * Provided an object-oriented language (sometimes as extensions to SQL) as alternative to purely relational SQL.
+    * The early commercial products were integrated with various languages e.g. GemStone - Smalltalk
+    * An attempt at standardization of querying language - Object Query Language (OQL).
+    * Examples: Gemstone , Gbase, ITASCA, TORNADO, and etc.
+* 2000's NoSql - New Sql, Not just Sql, non relational - answer to demand for massively distributed databases with high partition tolerance.
+	* Triggered by the needs of Web 2.0 companies such as Facebook, Google, and Amazon.com
+	* Motivated by simplicity of design, simpler and massive "horizontal" scaling to clusters of machines and finer control over availability
+	* Many compromise consistency in favor of availability, partition tolerance, and speed
+	* Examples: MongoDb, Cassandra, CouchDB, Couchbase, Neo4J, and many more
 
 ---
 
