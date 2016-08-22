@@ -9,3 +9,4 @@
 	* Present data in tabular form, i.e. as a collection of tables with each table consisting of a set of rows and columns
 	* Provided relational operators to manipulate the data in tabular form
 	* Later ACID-compliant transaction processing with strong database consistency characteristics and high level of database security were introduced
+	* Examples: Oracle, MS Sql Server, MySql, IBM DB2, PostgreSql.
