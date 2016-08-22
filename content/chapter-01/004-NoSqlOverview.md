@@ -1,7 +1,9 @@
 # History, hype, and industry trends #
 
-_image credit [@perez](https://twitter.com/perez)_
+<p style="text-align: right;">
+	<i>
+		image credit: <a href="https://twitter.com/perez" target="_blank">@perez</a>
+	</i>
+</p>
 
 ![Still following me](../../media/NoSqlStopFollowingMe.png)
-
-_Image credit [@perez](https://twitter.com/perez)_
