@@ -42,9 +42,13 @@
 
 # History, hype, and industry trends #
 
-![Still following me](../../media/NoSqlStopFollowingMe.png)
+<p style="text-align: right;">
+	<i>
+		image credit: <a href="https://twitter.com/perez" target="_blank">@perez</a>
+	</i>
+</p>
 
-_Image credit [@perez](https://twitter.com/perez)_
+![Still following me](../../media/NoSqlStopFollowingMe.png)
 ---
 
 # Additional Features #
