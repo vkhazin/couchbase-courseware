@@ -7,6 +7,7 @@
 * Data inconsistencies are avoided
 * Vendor independent logical data modeling
 * Relatively 'standard' ad-hoc queries support using Sql
+* Rich Etl and Reporting tools ecosystem
 
 ## Weaknesses
 * Difficult to represent hierarchies of data and recursive queries
@@ -21,6 +22,9 @@
 	</i>
 	<i>
 		Sql - structured query language
+	</i>
+	<i>
+		Etl - extract, transform, load
 	</i>
 </p>
 

@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "## Course Outline ## Develop and Operate highly scalable and agile database for modern Web, Mobile, and IoT systems.   [Table of Content](./table-of-content.md)",
   "scripts": {
-    "convert": "find ./content/. -name '*.md' -exec cat {} \\; -exec printf '\n\\-\\-\\-\n\n' \\; > ./build/slides.md"
+    "convert": "find ./content/. -name '*.md' -exec cat {} \\; -exec printf '\n\\-\\-\\-\n\n' \\; > ./build/slides.md",
+    "serve": "npm run convert;http-server -o"
   },
   "repository": {
     "type": "git",
