@@ -1,4 +1,4 @@
-# History of Databases Cont'd#
+# History of Databases - cont'd#
 
 * 1990's Object-Oriented - combine database capabilities with OOP language capabilities
     * Data has been seen as objects and their attributes rather than rows and columns

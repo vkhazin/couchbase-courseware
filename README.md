@@ -7,9 +7,9 @@ Develop and Operate highly scalable and agile database for modern Web, Mobile, a
 ## Participants will learn ##
 * Why and Where to use NoSql databases
 * What are the Types of NoSql databases
-* Data modelling with NoSql
+* Data modeling with NoSql
 * Why to choose Couchbase Server as document NoSql
-* How to install and operate Couchbase Server in Cross Datacenter Environment
+* How to install and operate Couchbase Server in Cross Data-center Environment
 * What are the tools available to build application using Java/Node.js/.Net sdk
 
 ## Prerequisites ##
@@ -25,21 +25,21 @@ Develop and Operate highly scalable and agile database for modern Web, Mobile, a
 * NoSql strength and weaknesses - replication and sharding built-in, high scalability and availability, limited ecosystem, eventually consistency
 * CAP theorem - pick two out of consistency, availability, and partition tolerance
 * Search Engines, Big Data, and Data Streaming - where Rdbms used to answer all needs, NoSql takes a different approach for now
-* Polyglot persistency - no more one size fits all, for different needs - different tools
+* Polyglot persistence - no more one size fits all, for different needs - different tools
 * Cloud and NoSql consideration - a different view on Rdbms, NoSql support is strong and growing
 
 ## Types of NoSql Databases ##
 * Key/Value - simple read/write pattern, high availability, no query capabilities
-* Document - read/write by key, query language, secondary indexes, and mapreduce
+* Document - read/write by key, query language, secondary indexes, and map reduce
 * Wide Column Family - read/write by key, secondary indexes, multi-value sets as a column
 * Graph - excels at storing and retrieving relationships between nodes
 * Multi-Model - a combination of two or more of the above types
 
-## Data Modelling with NoSql ##
+## Data Modeling with NoSql ##
 * Group Exercise: use customer data and ask to map without fk/joins supported
 * Linking - similar to Rdbms joins, familiar to data modelers, no/little query language support
 * Upside down approach - model the data usage not the data storage
-* Denormalization and Aggregates - duplicates and pre-processed data is Okay if not Great
+* De-normalization and Aggregates - duplicates and pre-processed data is Okay if not Great
 * Application side joins - when reads and writes are fast data access patterns change
 * Search engines do searches better, keyword searches is likely a requirement
 * Group exercise: key strategy for key/value and document NoSql
@@ -54,17 +54,17 @@ Develop and Operate highly scalable and agile database for modern Web, Mobile, a
 * Exercise: query data with N1QL using shell
 
 ## Couchbase Server Cluster Operation ##
-* Nodes, clusters and cross datacentre replication - 
+* Nodes, clusters and cross data centre replication - 
 * Exercise: join previously stand-alone nodes into 2 clusters
-* Cross datacentre replication
+* Cross data centre replication
 * Exercise: configure cross clusters data replication between 2 clusters
-* Auto failover, Backup, and Restore
+* Auto fail-over, Backup, and Restore
 * Exercise: fail one node in cluster, backup and restore one node in a cluster
 
 ## Build application using Java/Node.js/.Net sdk ##
 * Sdk object/model model - overview of one/two sdk based on customer preference
 * Exercise: connect to Couchbase cluster, retrieve few documents
-* Object model for read/write with fallback to replica read
+* Object model for read/write with fall-back to replica read
 * Exercise: write a document, read a document, read a document from replica
 * Object model for views
 * Exercise: query couchbase using Views object model
