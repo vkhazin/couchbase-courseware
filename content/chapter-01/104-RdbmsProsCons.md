@@ -11,10 +11,10 @@
 
 ## Weaknesses
 * Difficult to represent hierarchies of data and recursive queries
-* Limited support for complex data types and with limited computation syntax
+* Limited support for complex data types and with a limited computation syntax
 * Designed to run on a single server to maintain integrity of the data
 * Scalability and elasticity is a huge challenge for relational databases
-* Latest architectural changes only hide the underlying problem, e.g. master-slave
+* Latest architectural changes only hide the underlying problem
 
 <p style="text-align: right;">
 	<i>

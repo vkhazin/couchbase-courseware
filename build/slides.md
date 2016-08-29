@@ -52,10 +52,10 @@
 
 ## Weaknesses
 * Difficult to represent hierarchies of data and recursive queries
-* Limited support for complex data types and with limited computation syntax
+* Limited support for complex data types and with a limited computation syntax
 * Designed to run on a single server to maintain integrity of the data
 * Scalability and elasticity is a huge challenge for relational databases
-* Latest architectural changes only hide the underlying problem, e.g. master-slave
+* Latest architectural changes only hide the underlying problem
 
 <p style="text-align: right;">
 	<i>
@@ -218,6 +218,73 @@
 * Highlighted there is no size fits all for data persistence
 * Defined how Could/Fog and NoSql are related to each other
 * Feeling confused? Me too...
+---
+
+# Chapter Two - Types of NoSql Databases #
+
+* Key/Value - simple read/write pattern, high availability, no query capabilities
+* Document - read/write by key, query language, secondary indexes, and map reduce
+* Wide Column Family - read/write by key, secondary indexes, multi-value sets as a column
+* Graph - excels at storing and retrieving relationships between nodes
+* Multi-Model - a combination of two or more of the above types
+---
+
+# Key-Value Databases #
+
+* Database designed for storing and retrieving data using a dictionary/hash/map, value may have different fields for every record
+* Considerable flexibility compared to Rdbms and somewhat closer to object-oriented programming
+
+<p>
+	<img 	src="../../media/KeyValue.png" 
+			style="display: block; margin-left: auto; margin-right: auto"/>
+</p>
+
+* First Key-value: GT.M (Greystone Technology M) - a high-throughput key-value database engine optimized for transaction processing developed in 1980's
+* GT.M was made open source in 2000, in use today in banks around the world (according to job listings)
+
+
+
+---
+
+# Key-Value Databases - cont'd #
+
+* May implement different consistency models: eventual consistency, versions, transaction consistency
+* Redis and Apache Cassandra - eventually consistent
+* Couchbase - strongly consist when accessing object by key within a cluster
+* In-memory only vs. disk persistence
+* Memcached and Oracle Coherence - memcached does not replicate, Coherence does
+* Redis and Riak - persist to disk, not always as reliably as Rdbms
+---
+
+# Key-Value Databases - cont'd #
+
+* In general, key-value stores offer no query language
+* Value is stored as a blob requiring no upfront data modeling or schema definition
+* Scale out by implementing partitioning, replication and auto recovery
+* Scale up by maintaining the database in RAM by avoiding locks, latches and low-overhead calls
+* Perfect for: session management, user/profile stores, and data caching with expiry/auto-eviction functionality available
+* Less than ideal for: ad-hoc data queries, reporting, dashboards
+
+
+---
+
+# Document Databases #
+
+* Designed for storing, retrieving, and managing document-oriented information and semi-structured data
+* Xml and Json databases are main categories of NoSql databases, data is stored as xml/json:
+~~~
+	{
+	    "FirstName": "Bob", 
+	    "Address": "5 Oak St.", 
+	    "Hobby": "sailing"
+	}
+~~~
+* Document-oriented databases are a subclass of key-value stores
+* The main difference from key-value - the data is processed for querying and aggregation purposes
+* Lotus Domino with first release in 1989 is arguably the first document database
+* CouchDB (Couch is an acronym for cluster of unreliable commodity hardware) created in 2005 by former Lotus Notes developer at IBM. 
+
+
 ---
 
 # Additional Features #
