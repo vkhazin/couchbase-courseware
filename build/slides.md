@@ -287,6 +287,31 @@
 
 ---
 
+# Document Databases - cont'd #
+
+* Store all information for a given object in a single document, and every stored document can be of different structure
+* That in contrast to Rdbms where a given object may be stored across number of tables and rows
+* Data duplication is common, foreign keys often not welcome
+* Document key is typically a string, such as url, file name, guid/uuid, or a random string
+* Some document stores maintain a mapping, such as ElasticSeach for querying and aggregation support
+* Consistency models differ by vendor/product
+* Document can be updated or replaced
+* Restful API is common
+
+---
+
+# Wide Column Databases #
+
+* Column family is an object that contains columns of related data
+* Column family is a "table" where each key-value pair being a "row"
+* Each column is a complex type consisting of a column name, a value, and a timestamp
+* There is also super column family - a map of super columns
+<p>
+	<img 	src="../../media/super-column-family.png" 
+			style="display: block; margin-left: auto; margin-right: auto"/>
+</p>
+---
+
 # Additional Features #
 
 * Data encryption
