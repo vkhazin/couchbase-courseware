@@ -312,6 +312,58 @@
 </p>
 ---
 
+
+# Wide Column Databases - cont'd#
+
+## Contrast to Rdbms ##
+* Wide column stores also called extensible record stores
+* Store data in records with an ability to hold very large numbers of dynamic columns
+* Column names as well as the record keys are not fixed, and since a record can have billions of columns
+* Share the characteristics of document schema-free however implementation is different
+* <a href="http://static.googleusercontent.com/external_content/untrusted_dlcp/research.google.com/en//archive/bigtable-osdi06.pdf" target="_blank">Google Big Table is considered to be origin of this class of databases</a>
+---
+
+
+# Graph Databases #
+
+ * Store that uses graph structures for semantic queries with nodes, edges and properties
+ <p>
+	<img 	src="../../media/GraphDatabase.png" 
+			style="display: block; margin-left: auto; margin-right: auto"/>
+</p>
+
+---
+
+
+# Graph Databases - cont'd #
+
+## Comparison to Rdbms ##
+* Relationships are first-class citizens of the graph data model
+* Graph databases are like the next generation of relational databases
+* Each node directly and physically contains a list of relationship-records
+* Data models are much simpler and more expressive than those of Rdbms or other NoSQL databases
+---
+
+
+# Multi-Model Databases #
+
+* Designed to support multiple data models against a single, integrated back-end
+* Able to take on the characteristics of multiple databases e.g.: key-value, document, and graph
+* Intended to offer the data modeling advantages of Polyglot Persistence without its disadvantage: back-end fragmentation
+* True multi-model databases that have been designed specifically to serve multiple data models: Couchbase
+* General-purpose databases with multi-model options: PostgreSQL h-store, Oracle MySQL Cluster 7.2.
+
+---
+
+
+# Multi-Model Databases - cont'd #
+
+ <p>
+	<img 	src="../../media/DbaAdminNoSql.jpg" 
+			style="display: block; margin-left: auto; margin-right: auto"/>
+</p>
+---
+
 # Additional Features #
 
 * Data encryption
