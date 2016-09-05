@@ -282,7 +282,7 @@
 * Document-oriented databases are a subclass of key-value stores
 * The main difference from key-value - the data is processed for querying and aggregation purposes
 * Lotus Domino with first release in 1989 is arguably the first document database
-* CouchDB (Couch is an acronym for cluster of unreliable commodity hardware) created in 2005 by former Lotus Notes developer at IBM. 
+* CouchDB (Couch is an acronym for cluster of unreliable commodity hardware) created in 2005 by former Lotus Notes developer at IBM.
 
 
 ---
@@ -291,13 +291,12 @@
 
 * Store all information for a given object in a single document, and every stored document can be of different structure
 * That in contrast to Rdbms where a given object may be stored across number of tables and rows
-* Data duplication is common, foreign keys often not welcome
+* Data duplication is common, foreign keys are often not welcome
 * Document key is typically a string, such as url, file name, guid/uuid, or a random string
 * Some document stores maintain a mapping, such as ElasticSeach for querying and aggregation support
 * Consistency models differ by vendor/product
-* Document can be updated or replaced
-* Restful API is common
-
+* Document can be updated or replaced, restful API is common
+* Good fit for: rapid development, content management, catalogs, user generated content
 ---
 
 # Wide Column Databases #
@@ -320,7 +319,19 @@
 * Store data in records with an ability to hold very large numbers of dynamic columns
 * Column names as well as the record keys are not fixed, and since a record can have billions of columns
 * Share the characteristics of document schema-free however implementation is different
-* <a href="http://static.googleusercontent.com/external_content/untrusted_dlcp/research.google.com/en//archive/bigtable-osdi06.pdf" target="_blank">Google Big Table is considered to be origin of this class of databases</a>
+* Cassandra also supports collections as a column data type
+* Good fit for: massive write load, need to always write to db, truly large volumes of data (hundreds of terabytes)
+
+---
+
+
+# Wide Column Databases - cont'd#
+
+* <a href="http://static.googleusercontent.com/external_content/untrusted_dlcp/research.google.com/en//archive/bigtable-osdi06.pdf" target="_blank">Google Big Table 2004 is considered to be origin of this class of databases</a>
+* Since 2015 Cloud Bigtable is Google's NoSQL Big Data database service. The same database that powers many core Google services, including Search, Analytics, Maps, and Gmail.
+* Apache Cassandra was developed at Facebook to power their Inbox Search feature, released as open source in 2008
+* Datastax - develops and supports enterprise edition of Cassandra Database, product suite includes Search, Graph, Analytics, OpCenter, DevCenter
+
 ---
 
 
@@ -342,6 +353,9 @@
 * Graph databases are like the next generation of relational databases
 * Each node directly and physically contains a list of relationship-records
 * Data models are much simpler and more expressive than those of Rdbms or other NoSQL databases
+* Pre-history of graph databases: mid-1960's IBM's IMS supported tree like structures
+* <a href="http://db-engines.com/en/ranking/graph+dbms" target="_blank">21 listed as of Sep-2016, Neo4j is in the lead</a>
+* Good fit for: network/infrastructure management, identity/access management, recommendation engine, social networks 
 ---
 
 
@@ -350,7 +364,7 @@
 * Designed to support multiple data models against a single, integrated back-end
 * Able to take on the characteristics of multiple databases e.g.: key-value, document, and graph
 * Intended to offer the data modeling advantages of Polyglot Persistence without its disadvantage: back-end fragmentation
-* True multi-model databases that have been designed specifically to serve multiple data models: Couchbase
+* True multi-model databases that have been designed specifically to serve multiple data models: OrientDB 2010, Couchbase 2012, FoundationDB 2013 - bought over by Apple in 2015 and has vanished
 * General-purpose databases with multi-model options: PostgreSQL h-store, Oracle MySQL Cluster 7.2.
 
 ---
@@ -362,6 +376,16 @@
 	<img 	src="../../media/DbaAdminNoSql.jpg" 
 			style="display: block; margin-left: auto; margin-right: auto"/>
 </p>
+---
+
+# Chapter Two Summary #
+
+* Analyzed types of NoSql store types
+* Reviewed key-value stores: 55 listed on db-engines.com
+* Document stores: 43 listed on db-engines.com 
+* Wide Column Family stores: 7 listed on db-engines.com 
+* Multi-Model stores: no list yet on db-engines.com
+* Sadly, there is no one-size fits all use cases database management system
 ---
 
 # Additional Features #
