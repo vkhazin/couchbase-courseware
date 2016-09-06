@@ -39,7 +39,8 @@
 
 ## Chapter 03 ##
 * [Introduction](./content/chapter-03/Intro.md)
-
-
+* [Data Modeling Exercise](./content/chapter-03/DataModelingEx.md)
+* [Data Modeling Confusion](./content/chapter-03/DataModelingConfusion.md)
+* [Relational vs Documents](./content/chapter-03/DataModelingConfusion.md)
 
 * [Extras](./content/extras.md)
