@@ -1,5 +1,5 @@
 
-# Wide Column Databases - cont'd#
+# Wide Column Databases Vendors#
 
 * <a href="http://static.googleusercontent.com/external_content/untrusted_dlcp/research.google.com/en//archive/bigtable-osdi06.pdf" target="_blank">Google Big Table 2004 is considered to be origin of this class of databases</a>
 * Since 2015 Cloud Bigtable is Google's NoSQL Big Data database service. The same database that powers many core Google services, including Search, Analytics, Maps, and Gmail.

@@ -1,4 +1,4 @@
-# Chapter Two - Data Modeling with NoSql #
+# Chapter Three - Data Modeling with NoSql #
 
 * Group Exercise: use customer data and ask to map without fk/joins supported
 * Linking - similar to Rdbms joins, familiar to data modelers, no/little query language support

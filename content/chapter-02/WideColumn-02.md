@@ -1,5 +1,5 @@
 
-# Wide Column Databases - cont'd#
+# Wide Column Databases vs Rdbms#
 
 ## Contrast to Rdbms ##
 * Wide column stores also called extensible record stores

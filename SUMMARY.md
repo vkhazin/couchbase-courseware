@@ -18,3 +18,28 @@
 * [Big Data](./content/chapter-01/BigData-1.md)
 * [Big Data - cont'd](./content/chapter-01/BigData-2.md)
 * [Rdbms Approach](./content/chapter-01/RdbmsApproach.md)
+* [NoSql Approach](./content/chapter-01/NoSqlApproach-1.md)
+* [NoSql Approach - cont'd](./content/chapter-01/NoSqlApproach-2.md)
+* [Polyglot Persistence](./content/chapter-01/PolyglotPersistence.md)
+* [Cloud and NoSql](./content/chapter-01/CloudAndNoSql.md)
+* [Summary](./content/chapter-01/Summary.md)
+
+## Chapter 02 ##
+* [Introduction](./content/chapter-02/Intro.md)
+* [Key-Value](./content/chapter-02/KeyValue-01.md)
+* [Key-Value - cont'd](./content/chapter-02/KeyValue-02.md)
+* [Document](./content/chapter-02/Document-01.md)
+* [Document - cont'd](./content/chapter-02/Document-02.md)
+* [Wide Column Family](./content/chapter-02/WideColumn-01.md)
+* [Wide Column Family vs Rdbms](./content/chapter-02/WideColumn-02.md)
+* [Wide Column Family vendors](./content/chapter-02/WideColumn-03.md)
+* [Graph Store](./content/chapter-02/Graph-01.md)
+* [Graph Store - cont'd](./content/chapter-02/Graph-02.md)
+* [Summary](./content/chapter-02/Summary.md)
+
+## Chapter 03 ##
+* [Introduction](./content/chapter-03/Intro.md)
+
+
+
+* [Extras](./content/extras.md)
