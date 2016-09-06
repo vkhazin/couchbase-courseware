@@ -11,4 +11,6 @@
 * [Rdbms pros](./content/chapter-01/RdbmsPros.md)
 * [Rdbms cons](./content/chapter-01/RdbmsCons.md)
 * [NoSql Overview](./content/chapter-01/NoSqlOverview.md)
+* [NoSql Pros](./content/chapter-01/NoSqlPros.md)
+* [NoSql Cons](./content/chapter-01/NoSqlCons.md)
 
