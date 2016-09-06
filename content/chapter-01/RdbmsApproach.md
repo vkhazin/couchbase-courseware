@@ -5,7 +5,6 @@
 * Analytic Services
 * Reporting Services
 * Integration Services
-* and more...
 
 ## Oracle Database Technologies ##
 * Database
