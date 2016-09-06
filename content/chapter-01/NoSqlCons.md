@@ -1,6 +1,6 @@
 # NoSql strengths and shortcomings #
 
-## Weaknesses
+## Shortcomings ##
 * Data duplication is common
 * Limited portability between NoSql vendors
 * No joins, foreign keys, unions, or joins
