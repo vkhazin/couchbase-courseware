@@ -41,6 +41,7 @@ Develop and Operate highly scalable and agile database for modern Web, Mobile, a
 * De-normalization and Aggregates - duplicates and pre-processed data is Okay if not Great
 * Application side joins - when reads and writes are fast data access patterns change
 * Search engines do searches better, keyword searches is likely a requirement
+* Map/Reduce and Data Streaming do data analysis better and Big Data is a likely target
 * Group exercise: key strategy for key/value and document NoSql
 
 ## Couchbase Server - document NoSql ##
