@@ -34,6 +34,8 @@
 
     
         
+        <link rel="stylesheet" href="../../styles/website.css">
+        
     
         
     
@@ -554,12 +556,12 @@
             
         </li>
     
-        <li class="chapter " data-level="4.4" data-path="DataModelingConfusion.html">
+        <li class="chapter " data-level="4.4" data-path="RelationalModeling.html">
             
-                <a href="DataModelingConfusion.html">
+                <a href="RelationalModeling.html">
             
                     
-                    Relational vs Documents
+                    Relational Modeling
             
                 </a>
             
@@ -567,7 +569,98 @@
             
         </li>
     
-        <li class="chapter " data-level="4.5" data-path="../extras.html">
+        <li class="chapter " data-level="4.5" data-path="DocModelingLinking.html">
+            
+                <a href="DocModelingLinking.html">
+            
+                    
+                    Documents Modeling Linking
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.6" data-path="DocModelingAggregation.html">
+            
+                <a href="DocModelingAggregation.html">
+            
+                    
+                    Documents Modeling Aggregation
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.7" data-path="JoinsRdbms.html">
+            
+                <a href="JoinsRdbms.html">
+            
+                    
+                    Joins in Rdbms
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.8" data-path="JoinsDoc.html">
+            
+                <a href="JoinsDoc.html">
+            
+                    
+                    Joins in Document Store
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.9" data-path="ModelDataUsage.html">
+            
+                <a href="ModelDataUsage.html">
+            
+                    
+                    Model Data Usage
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.10" data-path="De-normalization.html">
+            
+                <a href="De-normalization.html">
+            
+                    
+                    De-normalization and Aggregation
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.11" data-path="ApplicationSideJoins.html">
+            
+                <a href="ApplicationSideJoins.html">
+            
+                    
+                    Application Side Joins
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.12" data-path="../extras.html">
             
                 <a href="../extras.html">
             
@@ -627,13 +720,13 @@
                                 
                                 <h1 id="chapter-three---data-modeling-with-nosql">Chapter Three - Data Modeling with NoSql</h1><ul><li>Group Exercise: use customer data and ask to map without fk/joins supported
 </li>
-<li>Linking - similar to Rdbms joins, familiar to data modelers, no/little query language support
+<li>Linking - similar to Rdbms joins, familiar to data modelers, no or little query language support
 </li>
 <li>Upside down approach - model the data usage not the data storage
 </li>
-<li>De-normalization and Aggregates - duplicates and pre-processed data is Okay if not Great
+<li>De-normalization and Aggregation - duplicates and pre-processed data is Okay if not Great
 </li>
-<li>Application side joins - when reads and writes are fast data access patterns change
+<li>Application side joins - when reads and writes are fast, data access patterns change
 </li>
 <li>Search engines do searches better, keyword searches is likely a requirement
 </li>
@@ -682,7 +775,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Introduction","level":"4.1","depth":1,"next":{"title":"Data Modeling Exercise","level":"4.2","depth":1,"path":"content/chapter-03/DataModelingEx.md","ref":"./content/chapter-03/DataModelingEx.md","articles":[]},"previous":{"title":"Summary","level":"3.11","depth":1,"path":"content/chapter-02/Summary.md","ref":"./content/chapter-02/Summary.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"content/chapter-03/Intro.md","mtime":"2016-09-06T01:37:33.000Z","type":"markdown"},"gitbook":{"version":"3.2.0","time":"2016-09-06T13:53:07.420Z"},"basePath":"../..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Introduction","level":"4.1","depth":1,"next":{"title":"Data Modeling Exercise","level":"4.2","depth":1,"path":"content/chapter-03/DataModelingEx.md","ref":"./content/chapter-03/DataModelingEx.md","articles":[]},"previous":{"title":"Summary","level":"3.11","depth":1,"path":"content/chapter-02/Summary.md","ref":"./content/chapter-02/Summary.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"content/chapter-03/Intro.md","mtime":"2016-09-08T01:55:11.000Z","type":"markdown"},"gitbook":{"version":"3.2.0","time":"2016-09-08T00:29:09.573Z"},"basePath":"../..","book":{"language":""}});
         });
     </script>
 </div>

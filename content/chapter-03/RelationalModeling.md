@@ -1,5 +1,5 @@
-# Relational vs Documents #
+# Relational Modeling #
  <p>
-	<img 	src="../../media/RelationalVsDocs.png" 
+	<img 	src="../../media/RelationalVsDoc-01.png" 
 			style="display: block; margin-left: auto; margin-right: auto"/>
 </p>
