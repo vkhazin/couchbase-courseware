@@ -7,4 +7,4 @@
 * Application side joins - when reads and writes are fast, data access patterns change
 * Search engines do searches better and keyword searches is likely a requirement
 * Map/Reduce and Data Streaming do data analysis better and Big Data is a likely target
-* Group exercise: key strategy for key/value and document NoSql
+* Group exercise: key strategy for key/value and document store

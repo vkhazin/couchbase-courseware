@@ -8,4 +8,4 @@
 * Domain Driven Design could have impacted the notion
 * Aggregates make it easier to manage data storage over a cluster 
 * Aggregation often achieved using materialized views as supported by Couchbase
-* Are there any other options? <a href="https://highlyscalable.wordpress.com/2012/03/01/nosql-data-modeling-techniques/" target="_blank">Yes, and there are quite a bit.
+* Are there any other options? <a href="https://highlyscalable.wordpress.com/2012/03/01/nosql-data-modeling-techniques/" target="_blank">Yes, and there are quite a bit.</a>

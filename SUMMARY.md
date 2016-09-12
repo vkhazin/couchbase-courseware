@@ -49,5 +49,21 @@
 * [Model Data Usage](./content/chapter-03/ModelDataUsage.md)
 * [De-normalization and Aggregation](./content/chapter-03/De-normalization.md)
 * [Application Side Joins](./content/chapter-03/ApplicationSideJoins.md)
+* [Search Engines](./content/chapter-03/SearchEngines.md)
+* [Map/Reduce and Data Streaming](./content/chapter-03/MapReduce.md)
+* [Key Strategy Exercise](./content/chapter-03/KeyStrategyEx.md)
+* [Summary](./content/chapter-03/Summary.md)
 
-* [Extras](./content/extras.md)
+## Chapter 04 ##
+* [Introduction](./content/chapter-04/Intro.md)
+* [Key Value & Document Store](./content/chapter-04/KeyValueAndDoc.md)
+* [Couchbase Server Architecture](./content/chapter-04/ServerArchitecture.md)
+* [Replicas](./content/chapter-04/Replicas.md)
+* [XDCR](./content/chapter-04/Xdcr.md)
+* [Buckets](./content/chapter-04/Buckets.md)
+* [Documents](./content/chapter-04/Documents.md)
+* [Views](./content/chapter-04/Views.md)
+
+
+## Self-study ##
+* [Additional Features](./content/extras.md)

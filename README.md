@@ -42,11 +42,11 @@ Develop and Operate highly scalable and agile database for modern Web, Mobile, a
 * Application side joins - when reads and writes are fast data access patterns change
 * Search engines do searches better, keyword searches is likely a requirement
 * Map/Reduce and Data Streaming do data analysis better and Big Data is a likely target
-* Group exercise: key strategy for key/value and document NoSql
+* Group exercise: key strategy for key/value and document store
 
 ## Couchbase Server - document NoSql ##
-* Couchbase as key/value and document NoSql
-* Architecture - cluster, nodes, buckets, items, and views
+* Couchbase as a key/value and as a document NoSql
+* Architecture - cluster, nodes, buckets, documents, and views
 * Exercise: setup one node cluster on CentOs, access Server Ui, create first document
 * Document, N1QL, and Views - how it all comes together
 * Exercise: populate few documents, build views, and insert/retrieve data using shell
