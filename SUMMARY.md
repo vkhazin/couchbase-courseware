@@ -4,6 +4,13 @@
 * [Overview](./README.md)
 * [Preparation](./Preparation.md)
 
+## Chapter 00 ##
+* [Introduction](./content/chapter-00/Intro.md)
+* [Exercises Setup](./content/chapter-00/ExercisesSetup.md)
+* [Your Instructor](./content/chapter-00/Instructor.md)
+* [Your Peers](./content/chapter-00/Peers.md)
+
+
 ## Chapter 01 ##
 * [Introduction](./content/chapter-01/Intro.md)
 * [History of Dbms](./content/chapter-01/History-1.md)
@@ -63,6 +70,8 @@
 * [Buckets](./content/chapter-04/Buckets.md)
 * [Documents](./content/chapter-04/Documents.md)
 * [Views](./content/chapter-04/Views.md)
+* [Install Couchbase Server](./content/chapter-04/InstallCb.md)
+
 
 
 ## Self-study ##
