@@ -37,7 +37,7 @@ curl localhost:8091
 ```
 
 * Expected output:
-```
+~~~
 <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
 <html>
 	<head><title>301 Moved Permanently</title></head>
@@ -48,7 +48,7 @@ curl localhost:8091
 		</p>
 	</body>
 </html>
-```
+~~~
 
 * From Nitrous top menu select 'Preview->(any option)'
 * In the browser address bar add port info e.g.:
@@ -63,6 +63,6 @@ http://couchbase-courseware-213242.nitrousapp.com:8091/
 ```
 couchbase-courseware-213242.nitrousapp.com
 ```
-  
+
 
 
