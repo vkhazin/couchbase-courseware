@@ -37,19 +37,18 @@ curl localhost:8091
 ```
 
 * Expected output:
-~~~
-<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
-<html>
-	<head><title>301 Moved Permanently</title></head>
-	<body>
-		<h1>Moved Permanently</h1>
-		<p>The document has moved
-			<a href="http://localhost:8091/ui/index.html>here</a>.
-		</p>
-	</body>
-</html>
-~~~
-
+```
+&lt;!DOCTYPE HTML PUBLIC &quot;-//IETF//DTD HTML 2.0//EN&quot;&gt;
+&lt;html&gt;
+	&lt;head&gt;&lt;title&gt;301 Moved Permanently&lt;/title&gt;&lt;/head&gt;
+	&lt;body&gt;
+		&lt;h1&gt;Moved Permanently&lt;/h1&gt;
+		&lt;p&gt;The document has moved
+			&lt;a href=&quot;http://localhost:8091/ui/index.html&gt;here&lt;/a&gt;.
+		&lt;/p&gt;
+	&lt;/body&gt;
+&lt;/html&gt;
+```  
 * From Nitrous top menu select 'Preview->(any option)'
 * In the browser address bar add port info e.g.:
 ```
