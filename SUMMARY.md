@@ -70,7 +70,7 @@
 * [Buckets](./content/chapter-04/Buckets.md)
 * [Documents](./content/chapter-04/Documents.md)
 * [Views](./content/chapter-04/Views.md)
-* [Install Couchbase Server](./content/chapter-04/InstallCb.md)
+* [Install Couchbase Server](./content/chapter-04/InstallCbEx.md)
 
 
 
