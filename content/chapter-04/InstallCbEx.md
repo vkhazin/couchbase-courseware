@@ -63,6 +63,15 @@ http://couchbase-courseware-213242.nitrousapp.com:8091/
 ```
 couchbase-courseware-213242.nitrousapp.com
 ```
+* Select 'Next button'
+* On the next screen select 'beer-sample' check-box to create a sample bucket and then select 'Next' button
+* Select 'Skip' button to skip creating default bucket - we are good for now with sample bucket only
+* Agree to terms and condition and opt-in/opt-out of update notifications
+* Secure this server with custom username/password: Administrator/WhoNeedsSecurity
+* Continue next to complete creation of cluster
+* Congrads! You are not certified Couchbase Server dba and administrator.
+* Poke around the Admin Ui and ask questions about what you see: who knows instructor might know the answer!
+
 
 
 
