@@ -20,8 +20,8 @@ sudo apt-get install libssl1.0.0
 * Download Couchbase Server using terminal window by typing:
 ```
 wget https://github.com/vkhazin/couchbase-courseware/raw/master/software/couchbase-server-enterprise_4.5.0-ubuntu14.04_amd64.deb
-# or from backup location:
-# wget https://bitbucket.org/crsware/couchbase-courseware/raw/3bc2dd93831b5ac15decb927157deeaa37ee6350/software/couchbase-server-enterprise_4.5.0-ubuntu14.04_amd64.deb
+# or from backup location:  
+# wget https://bitbucket.org/crsware/couchbase-courseware/raw/3bc2dd93831b5ac15decb927157deeaa37ee6350/software/couchbase-server-enterprise_4.5.0-ubuntu14.04_amd64.deb  
 ```  
 * Install Couchbase Server using terminal:
 ```
