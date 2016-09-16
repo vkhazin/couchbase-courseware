@@ -38,17 +38,17 @@ curl localhost:8091
 
 * Expected output:
 ```
-&lt;!DOCTYPE HTML PUBLIC &quot;-//IETF//DTD HTML 2.0//EN&quot;&gt;
-&lt;html&gt;
-	&lt;head&gt;&lt;title&gt;301 Moved Permanently&lt;/title&gt;&lt;/head&gt;
-	&lt;body&gt;
-		&lt;h1&gt;Moved Permanently&lt;/h1&gt;
-		&lt;p&gt;The document has moved
-			&lt;a href=&quot;http://localhost:8091/ui/index.html&gt;here&lt;/a&gt;.
-		&lt;/p&gt;
-	&lt;/body&gt;
-&lt;/html&gt;
-```  
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html>
+	<head><title>301 Moved Permanently</title></head>
+	<body>
+		<h1>Moved Permanently</h1>
+		<p>The document has moved
+			<a href="http://localhost:8091/ui/index.html>here</a>.
+		</p>
+	</body>
+</html>
+
 * From Nitrous top menu select 'Preview->(any option)'
 * In the browser address bar add port info e.g.:
 ```
@@ -66,9 +66,9 @@ couchbase-courseware-213242.nitrousapp.com
 * On the next screen select 'beer-sample' check-box to create a sample bucket and then select 'Next' button
 * Select 'Skip' button to skip creating default bucket - we are good for now with sample bucket only
 * Agree to terms and condition and opt-in/opt-out of update notifications
-* Secure this server with custom username/password: Administrator/WhoNeedsSecurity
+* Secure server with custom username/password: Administrator/WhoNeedsSecurity
 * Continue next to complete creation of cluster
-* Congrads! You are not certified Couchbase Server dba and administrator.
+* Congrads! You are now certified Couchbase Server dba.
 * Poke around the Admin Ui and ask questions about what you see: who knows instructor might know the answer!
 
 

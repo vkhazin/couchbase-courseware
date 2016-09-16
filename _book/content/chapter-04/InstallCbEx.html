@@ -987,42 +987,43 @@ libssl-dev - Secure Sockets Layer toolkit - development files</code></pre>
 </li></ul>
 <pre><code>curl localhost:8091</code></pre>
 <ul><li>Expected output:
+```
+&lt;!DOCTYPE HTML PUBLIC &quot;-//IETF//DTD HTML 2.0//EN&quot;&gt;
 </li></ul>
-<pre><code>&amp;lt;!DOCTYPE HTML PUBLIC &amp;quot;-//IETF//DTD HTML 2.0//EN&amp;quot;&amp;gt;
-&amp;lt;html&amp;gt;
-  &amp;lt;head&amp;gt;&amp;lt;title&amp;gt;301 Moved Permanently&amp;lt;/title&amp;gt;&amp;lt;/head&amp;gt;
-  &amp;lt;body&amp;gt;
-      &amp;lt;h1&amp;gt;Moved Permanently&amp;lt;/h1&amp;gt;
-      &amp;lt;p&amp;gt;The document has moved
-          &amp;lt;a href=&amp;quot;http://localhost:8091/ui/index.html&amp;gt;here&amp;lt;/a&amp;gt;.
-      &amp;lt;/p&amp;gt;
-  &amp;lt;/body&amp;gt;
-&amp;lt;/html&amp;gt;</code></pre>
-<ul><li>From Nitrous top menu select &apos;Preview-&gt;(any option)&apos;
-</li></ul>
-</li>
-<li><p>In the browser address bar add port info e.g.:</p><pre><code>http://couchbase-courseware-213242.nitrousapp.com:8091/</code></pre>
-<ul><li>After a bit admin ui will show, select &apos;Setup&apos; button
-</li></ul>
-</li>
-<li><p>Choose &apos;Start a new cluster&apos; radio button</p></li>
-<li>Reduce &apos;Data RAM Quota:&apos; and &apos;Index RAM Quota:&apos; values to 256 - we are on small footprint sandbox here
-</li>
-<li><p>Replace hostname with the domain name <a style="color:red">(exclude protocol and port)</a> you see in the browser bar e.g.:</p><pre><code>couchbase-courseware-213242.nitrousapp.com</code></pre>
+<html>
+  <head><title>301 Moved Permanently</title></head>
+  <body>
+      <h1 id="moved-permanently">Moved Permanently</h1>
+      <p>The document has moved
+          <a href="http://localhost:8091/ui/index.html&gt;here&lt;/a&gt;.
+      &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;From Nitrous top menu select &apos;Preview-&gt;(any option)&apos;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;In the browser address bar add port info e.g.:&lt;/p&gt;&lt;pre&gt;&lt;code&gt;http://couchbase-courseware-213242.nitrousapp.com:8091/&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;&lt;li&gt;After a bit admin ui will show, select &apos;Setup&apos; button
+&lt;/li&gt;&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Choose &apos;Start a new cluster&apos; radio button&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;Reduce &apos;Data RAM Quota:&apos; and &apos;Index RAM Quota:&apos; values to 256 - we are on small footprint sandbox here
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Replace hostname with the domain name &lt;a style=" color:red"="" target="_blank">(exclude protocol and port)</a> you see in the browser bar e.g.:</p><pre><code>couchbase-courseware-213242.nitrousapp.com</code></pre>
 <ul><li>Select &apos;Next button&apos;
 </li></ul>
-</li>
+</body></html></li>
 <li>On the next screen select &apos;beer-sample&apos; check-box to create a sample bucket and then select &apos;Next&apos; button
 </li>
 <li>Select &apos;Skip&apos; button to skip creating default bucket - we are good for now with sample bucket only
 </li>
 <li>Agree to terms and condition and opt-in/opt-out of update notifications
 </li>
-<li>Secure this server with custom username/password: Administrator/WhoNeedsSecurity
+<li>Secure server with custom username/password: Administrator/WhoNeedsSecurity
 </li>
 <li>Continue next to complete creation of cluster
 </li>
-<li>Congrads! You are not certified Couchbase Server dba and administrator.
+<li>Congrads! You are now certified Couchbase Server dba.
 </li>
 <li>Poke around the Admin Ui and ask questions about what you see: who knows instructor might know the answer!
 </li></ul>
@@ -1069,7 +1070,7 @@ libssl-dev - Secure Sockets Layer toolkit - development files</code></pre>
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Install Couchbase Server","level":"6.9","depth":1,"next":{"title":"Additional Features","level":"7.1","depth":1,"path":"content/extras.md","ref":"./content/extras.md","articles":[]},"previous":{"title":"Views","level":"6.8","depth":1,"path":"content/chapter-04/Views.md","ref":"./content/chapter-04/Views.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"content/chapter-04/InstallCbEx.md","mtime":"2016-09-16T14:31:26.000Z","type":"markdown"},"gitbook":{"version":"3.2.0","time":"2016-09-16T12:45:22.030Z"},"basePath":"../..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Install Couchbase Server","level":"6.9","depth":1,"next":{"title":"Additional Features","level":"7.1","depth":1,"path":"content/extras.md","ref":"./content/extras.md","articles":[]},"previous":{"title":"Views","level":"6.8","depth":1,"path":"content/chapter-04/Views.md","ref":"./content/chapter-04/Views.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"content/chapter-04/InstallCbEx.md","mtime":"2016-09-16T14:37:09.000Z","type":"markdown"},"gitbook":{"version":"3.2.0","time":"2016-09-16T12:45:22.030Z"},"basePath":"../..","book":{"language":""}});
         });
     </script>
 </div>
