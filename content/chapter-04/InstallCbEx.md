@@ -32,16 +32,16 @@ sudo dpkg -i ./couchbase-server-enterprise_4.5.0-ubuntu14.04_amd64.deb
 curl localhost:8091
 ```  
 * Expected output:
-```
-<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
-<html>
-	<head><title>301 Moved Permanently</title></head>
-	<body>
-		<h1>Moved Permanently</h1>
-		<p>The document has moved
-			<a href="http://localhost:8091/ui/index.html>here</a>.
-		</p>
-	</body>
-</html>
-```  
+<textarea>
+	<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+	<html>
+		<head><title>301 Moved Permanently</title></head>
+		<body>
+			<h1>Moved Permanently</h1>
+			<p>The document has moved
+				<a href="http://localhost:8091/ui/index.html>here</a>.
+			</p>
+		</body>
+	</html>
+<textarea>  
 
