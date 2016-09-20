@@ -71,6 +71,7 @@
 * [Documents](./content/chapter-04/Documents.md)
 * [Views](./content/chapter-04/Views.md)
 * [Install Couchbase Server](./content/chapter-04/InstallCbEx.md)
+* [Document, N1QL, and Views](./content/chapter-04/DocN1qlViews.md)
 
 
 

@@ -48,7 +48,8 @@ curl localhost:8091
 		</p>
 	</body>
 </html>
-
+```
+  
 * From Nitrous top menu select 'Preview->(any option)'
 * In the browser address bar add port info e.g.:
 ```
@@ -69,7 +70,7 @@ couchbase-courseware-213242.nitrousapp.com
 * Secure server with custom username/password: Administrator/WhoNeedsSecurity
 * Continue next to complete creation of cluster
 * Congrads! You are now certified Couchbase Server dba.
-* Poke around the Admin Ui and ask questions about what you see: who knows instructor might know the answer!
+* Explore Admin Ui and ask questions about what you see and check <a href="http://developer.couchbase.com/documentation/server/current/admin/ui-intro.html" target="_blank">documentation</a>
 
 
 
