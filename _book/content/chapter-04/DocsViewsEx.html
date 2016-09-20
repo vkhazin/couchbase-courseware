@@ -2,7 +2,7 @@
 <!DOCTYPE HTML>
 <html lang="" >
     <head>
-        <title>Introduction · GitBook</title>
+        <title>Create Documents and Views Exercise · GitBook</title>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
@@ -59,10 +59,10 @@
     <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="KeyValueAndDoc.html" />
+    <link rel="next" href="N1ql.html" />
     
     
-    <link rel="prev" href="../chapter-03/Summary.html" />
+    <link rel="prev" href="DocN1qlViews.html" />
     
 
     </head>
@@ -778,7 +778,7 @@
         
         
     
-        <li class="chapter active" data-level="6.1" data-path="Intro.html">
+        <li class="chapter " data-level="6.1" data-path="Intro.html">
             
                 <a href="Intro.html">
             
@@ -908,7 +908,7 @@
             
         </li>
     
-        <li class="chapter " data-level="6.11" data-path="DocsViewsEx.html">
+        <li class="chapter active" data-level="6.11" data-path="DocsViewsEx.html">
             
                 <a href="DocsViewsEx.html">
             
@@ -984,7 +984,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href="../.." >Introduction</a>
+        <a href="../.." >Create Documents and Views Exercise</a>
     </h1>
 </div>
 
@@ -999,19 +999,38 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="chapter-four---couchbase-server">Chapter Four - Couchbase Server</h1><ul><li>Couchbase as a key/value and as a document NoSql
+                                <h1 id="create-documents-and-views">Create Documents and Views</h1><ul><li>Connect to the Couchbase instance we have created in the previous exercises
 </li>
-<li>Architecture - cluster, nodes, buckets, documents, and views
+<li>Open Admin Ui be selecting &apos;Preview-&gt;Port 3000 Http&apos; and adding port number 8091 in the address bar, e.g.:
+<pre><code>http://couchbase-courseware-213242.nitrousapp.com:8091/</code></pre>
+</li></ul>
+<h2 id="documents">Documents</h2><ul><li>Select &apos;Data Buckets&apos;
 </li>
-<li>Exercise: setup one node cluster on linux, access Server Ui, create first document
+<li>Select &apos;Documents&apos; next to &apos;beer-sample&apos;
 </li>
-<li>Document, N1QL, and Views - how it all comes together
+<li>Select one of the documents to edit
 </li>
-<li>Exercise: populate few documents, build views, and insert/retrieve data using Admin Ui
+<li>Modify content and save
 </li>
-<li>N1QL an equivalent to sql in Rdbms, but with some key differences
+<li>Create new document
+</li></ul>
+<h2 id="views">Views</h2><ul><li>Select &apos;Data Buckets&apos;
 </li>
-<li>Exercise: query data with N1QL using shell
+<li>Select &apos;Views&apos; next to &apos;beer-sample&apos;
+</li>
+<li>Views are organized in a design document - unit of deployment
+</li>
+<li>There are development and production views
+</li>
+<li>Select &apos;Production Views&apos; - review the examples
+</li>
+<li>Select &apos;Development Views&apos; - create new view to list brewery id only
+</li>
+<li>Modify the newly created view to create count of documents by brewery id
+</li>
+<li>Psss: there is reduce panel on the right and there is arrow next to &apos;Filter Results&apos; with &apos;group&apos; check-box
+</li>
+<li>Intuitive is not it?
 </li></ul>
 
                                 
@@ -1040,12 +1059,12 @@
 
             
                 
-                <a href="../chapter-03/Summary.html" class="navigation navigation-prev " aria-label="Previous page: Summary">
+                <a href="DocN1qlViews.html" class="navigation navigation-prev " aria-label="Previous page: Document, N1QL, and Views">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="KeyValueAndDoc.html" class="navigation navigation-next " aria-label="Next page: Key Value & Document Store">
+                <a href="N1ql.html" class="navigation navigation-next " aria-label="Next page: N1QL - Declarative Query Language">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -1056,7 +1075,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Introduction","level":"6.1","depth":1,"next":{"title":"Key Value & Document Store","level":"6.2","depth":1,"path":"content/chapter-04/KeyValueAndDoc.md","ref":"./content/chapter-04/KeyValueAndDoc.md","articles":[]},"previous":{"title":"Summary","level":"5.15","depth":1,"path":"content/chapter-03/Summary.md","ref":"./content/chapter-03/Summary.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"content/chapter-04/Intro.md","mtime":"2016-09-20T20:30:08.000Z","type":"markdown"},"gitbook":{"version":"3.2.0","time":"2016-09-20T20:00:29.783Z"},"basePath":"../..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Create Documents and Views Exercise","level":"6.11","depth":1,"next":{"title":"N1QL - Declarative Query Language","level":"6.12","depth":1,"path":"content/chapter-04/N1ql.md","ref":"./content/chapter-04/N1ql.md","articles":[]},"previous":{"title":"Document, N1QL, and Views","level":"6.10","depth":1,"path":"content/chapter-04/DocN1qlViews.md","ref":"./content/chapter-04/DocN1qlViews.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"content/chapter-04/DocsViewsEx.md","mtime":"2016-09-20T20:37:09.000Z","type":"markdown"},"gitbook":{"version":"3.2.0","time":"2016-09-20T20:00:29.783Z"},"basePath":"../..","book":{"language":""}});
         });
     </script>
 </div>

@@ -70,8 +70,10 @@
 * [Buckets](./content/chapter-04/Buckets.md)
 * [Documents](./content/chapter-04/Documents.md)
 * [Views](./content/chapter-04/Views.md)
-* [Install Couchbase Server](./content/chapter-04/InstallCbEx.md)
+* [Install Couchbase Server Exercise](./content/chapter-04/InstallCbEx.md)
 * [Document, N1QL, and Views](./content/chapter-04/DocN1qlViews.md)
+* [Create Documents and Views Exercise](./content/chapter-04/DocsViewsEx.md)
+* [N1QL - Declarative Query Language](./content/chapter-04/N1ql.md)
 
 
 

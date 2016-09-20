@@ -1,4 +1,4 @@
-# Install Couchbase Server #
+# Install Couchbase Server Exercise #
 
 * Log-in into <a href="http://nitrous.io" target="_blank">Nitrous</a>/<a href="http://c9.io" target="_blank">Cloud9</a> environments
 * Open IDE for the project
