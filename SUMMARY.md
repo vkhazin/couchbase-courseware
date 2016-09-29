@@ -74,7 +74,7 @@
 * [Document, N1QL, and Views](./content/chapter-04/DocN1qlViews.md)
 * [Create Documents and Views Exercise](./content/chapter-04/DocsViewsEx.md)
 * [N1QL - Declarative Query Language](./content/chapter-04/N1ql.md)
-
+* [N1QL Exercise](./content/chapter-04/N1qlEx.md)
 
 
 ## Self-study ##

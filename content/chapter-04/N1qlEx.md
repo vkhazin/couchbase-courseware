@@ -1,6 +1,6 @@
-# N1QL - Declarative Query Language #
+# N1QL Exercise #
 
-* N1QL is a declarative query language that extends SQL for JSON
+* Login into your virtual environment, wake it up if required 
 * Can also query data via native framework and language integration
 * One or more <a href="http://developer.couchbase.com/documentation/server/current/n1ql/n1ql-language-reference/createprimaryindex.html" target="_blank">indexes</a> required:  
 ```
