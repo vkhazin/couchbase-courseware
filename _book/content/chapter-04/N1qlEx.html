@@ -59,7 +59,7 @@
     <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="../extras.html" />
+    <link rel="next" href="Summary.html" />
     
     
     <link rel="prev" href="N1ql.html" />
@@ -947,6 +947,52 @@
             
         </li>
     
+        <li class="chapter " data-level="6.14" data-path="Summary.html">
+            
+                <a href="Summary.html">
+            
+                    
+                    Summary
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Chapter 05</li>
+        
+        
+    
+        <li class="chapter " data-level="7.1" data-path="../chapter-05/Intro.html">
+            
+                <a href="../chapter-05/Intro.html">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.2" data-path="../chapter-05/NodesClustersXdcr.html">
+            
+                <a href="../chapter-05/NodesClustersXdcr.html">
+            
+                    
+                    Nodes, Clusters and Xdcr
+            
+                </a>
+            
+
+            
+        </li>
+    
 
     
         
@@ -954,7 +1000,7 @@
         
         
     
-        <li class="chapter " data-level="7.1" data-path="../extras.html">
+        <li class="chapter " data-level="8.1" data-path="../extras.html">
             
                 <a href="../extras.html">
             
@@ -1014,18 +1060,57 @@
                                 
                                 <h1 id="n1ql-exercise">N1QL Exercise</h1><ul><li>Login into your virtual environment, wake it up if required 
 </li>
-<li>Can also query data via native framework and language integration
+<li><p>Connect to your single node cluster user terminal window:</p><pre><code>/opt/couchbase/bin/cbq -u Administrator -p WhoNeedsSecurity</code></pre>
+<ul><li><p>Execute your first N1QL query:
+  select * from <code>beer-sample</code> limit 5; <enter></enter></p></li>
+<li><p>Results shown are for &apos;limit 1&apos;:</p><pre><code>{
+&quot;requestID&quot;: &quot;857531e2-aa68-4a7f-894e-b242f9d0b804&quot;,
+&quot;signature&quot;: {
+    &quot;*&quot;: &quot;*&quot;
+},
+&quot;results&quot;: [
+    {
+        &quot;beer-sample&quot;: {
+            &quot;address&quot;: [
+                &quot;563 Second Street&quot;
+            ],
+            &quot;city&quot;: &quot;San Francisco&quot;,
+            &quot;code&quot;: &quot;94107&quot;,
+            &quot;country&quot;: &quot;United States&quot;,
+            &quot;description&quot;: &quot;The 21st Amendment Brewery offers a variety of award winning house made brews and American grilled cuisine in a comfortable loft li
+ke setting. Join us before and after Giants baseball games in our outdoor beer garden. A great location for functions and parties in our semi-private Brewers Loft.
+See you soon at the 21A!&quot;,
+            &quot;geo&quot;: {
+                &quot;accuracy&quot;: &quot;ROOFTOP&quot;,
+                &quot;lat&quot;: 37.7825,
+                &quot;lon&quot;: -122.393
+            },
+            &quot;name&quot;: &quot;21st Amendment Brewery Cafe&quot;,
+            &quot;phone&quot;: &quot;1-415-369-0900&quot;,
+            &quot;state&quot;: &quot;California&quot;,
+            &quot;type&quot;: &quot;brewery&quot;,
+            &quot;updated&quot;: &quot;2010-10-24 13:54:07&quot;,
+            &quot;website&quot;: &quot;http://www.21st-amendment.com/&quot;
+        }
+    }
+],
+&quot;status&quot;: &quot;success&quot;,
+&quot;metrics&quot;: {
+    &quot;elapsedTime&quot;: &quot;27.592626ms&quot;,
+    &quot;executionTime&quot;: &quot;27.564695ms&quot;,
+    &quot;resultCount&quot;: 1,
+    &quot;resultSize&quot;: 1055
+}
+}
+cbq&gt;</code></pre>
 </li>
-<li><p>One or more <a href="http://developer.couchbase.com/documentation/server/current/n1ql/n1ql-language-reference/createprimaryindex.html" target="_blank">indexes</a> required:<br>    CREATE PRIMARY INDEX ON <code>beer-sample</code>
-    CREATE INDEX ix_beer_name ON <code>beer-sample</code>(name)</p><ul><li><p>N1QL query:
-  SELECT * FROM <code>beer-sample</code> WHERE name=&apos;<beer name="">&apos;</beer></p></li>
-<li><p>Node.js query:
-  bucket.query(couchbase.N1qlQuery.fromString(&quot;SELECT name FROM <code>beer-sample</code> WHERE name=&apos;<beer name="">&apos;&quot;));</beer></p></li>
-<li><p>Java query:
-  bucket.query(Query.simple(&quot;SELECT name FROM <code>beer-sample</code> WHERE category=&apos;<beer name="">&apos;&quot;));</beer></p></li>
-<li><p>.Net query:</p><pre><code>var query = from db in bucket.Queryable&lt;BeerSample&gt;(bucket) where beer.name == &quot;&lt;beer name&gt;&quot;</code></pre>
+<li><p>Now experiment with composing different queries with where clause, e.g.:</p><pre><code>WHERE type = &quot;brewery&quot;</code></pre>
 </li>
-<li><p>Number of <a href="http://developer.couchbase.com/documentation/server/current/tools/tools-ref.html" target="_blank">tools</a> provided for N1QL development and monitoring</p></li></ul>
+<li><p>Add a order clause e.g.:</p><pre><code>ORDER BY state, type</code></pre>
+</li>
+<li><p>Select a nested value e.g.:
+  SELECT address[0] FROM <code>beer-sample</code> LIMIT 1</p></li>
+<li><p><a href="http://developer.couchbase.com/documentation/server/current/n1ql/n1ql-language-reference/from.html" target="_blank">There is also joins and there are more than one time of joins</a></p></li></ul>
 </li></ul>
 
                                 
@@ -1059,7 +1144,7 @@
                 </a>
                 
                 
-                <a href="../extras.html" class="navigation navigation-next " aria-label="Next page: Additional Features">
+                <a href="Summary.html" class="navigation navigation-next " aria-label="Next page: Summary">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -1070,7 +1155,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"N1QL Exercise","level":"6.13","depth":1,"next":{"title":"Additional Features","level":"7.1","depth":1,"path":"content/extras.md","ref":"./content/extras.md","articles":[]},"previous":{"title":"N1QL - Declarative Query Language","level":"6.12","depth":1,"path":"content/chapter-04/N1ql.md","ref":"./content/chapter-04/N1ql.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"content/chapter-04/N1qlEx.md","mtime":"2016-09-29T13:08:44.000Z","type":"markdown"},"gitbook":{"version":"3.2.0","time":"2016-09-29T12:48:34.268Z"},"basePath":"../..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"N1QL Exercise","level":"6.13","depth":1,"next":{"title":"Summary","level":"6.14","depth":1,"path":"content/chapter-04/Summary.md","ref":"./content/chapter-04/Summary.md","articles":[]},"previous":{"title":"N1QL - Declarative Query Language","level":"6.12","depth":1,"path":"content/chapter-04/N1ql.md","ref":"./content/chapter-04/N1ql.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"content/chapter-04/N1qlEx.md","mtime":"2016-09-30T14:22:47.000Z","type":"markdown"},"gitbook":{"version":"3.2.0","time":"2016-09-30T12:54:13.575Z"},"basePath":"../..","book":{"language":""}});
         });
     </script>
 </div>

@@ -54,7 +54,7 @@ Develop and Operate highly scalable and agile database for modern Web, Mobile, a
 * Exercise: query data with N1QL using shell
 
 ## Couchbase Server Cluster Operation ##
-* Nodes, clusters and cross data centre replication - 
+* Nodes, clusters and cross data centre replication
 * Exercise: join previously stand-alone nodes into 2 clusters
 * Cross data centre replication
 * Exercise: configure cross clusters data replication between 2 clusters

@@ -75,7 +75,12 @@
 * [Create Documents and Views Exercise](./content/chapter-04/DocsViewsEx.md)
 * [N1QL - Declarative Query Language](./content/chapter-04/N1ql.md)
 * [N1QL Exercise](./content/chapter-04/N1qlEx.md)
+* [Summary](./content/chapter-04/Summary.md)
 
+## Chapter 05 ##
+* [Introduction](./content/chapter-05/Intro.md)
+* [Nodes, Clusters and Xdcr](./content/chapter-05/NodesClustersXdcr.md)
+* 
 
 ## Self-study ##
 * [Additional Features](./content/extras.md)
