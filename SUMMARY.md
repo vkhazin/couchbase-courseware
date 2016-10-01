@@ -5,11 +5,7 @@
 * [Preparation](./Preparation.md)
 
 ## Chapter 00 ##
-* [Introduction](./content/chapter-00/Intro.md)
 * [Exercises Setup](./content/chapter-00/ExercisesSetup.md)
-* [Your Instructor](./content/chapter-00/Instructor.md)
-* [Your Peers](./content/chapter-00/Peers.md)
-
 
 ## Chapter 01 ##
 * [Introduction](./content/chapter-01/Intro.md)
